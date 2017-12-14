@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/David202020/Wizard-Kit
+branches:
+- master
+projects:
+  Wizard-Kit:
+    path: ""
+icon: icon.png
+...
