@@ -25,7 +25,7 @@ public function onLoad(){
    		    $name = $player->getName();
    	            $this->getServer()->broadcastMessage(C::GREEN."Ducky Scammed the Server$! He's a dick!");
 	  }
-	  public function onCommand(CommandSender $sender,Command $cmd,string $label,array $args) : bool {
+	  public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool{
 			if($cmd->getname() == "wizard"){
  			if(!$sender instanceof Player){
           	    $sender->sendMessage("This Command Only Works for players! Please perform this command IN GAME!");
