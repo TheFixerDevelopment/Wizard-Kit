@@ -33,10 +33,9 @@ public function onLoad(){
  			if(!$sender instanceof Player){
           	    $sender->sendMessage("This Command Only Works for players! Please perform this command IN GAME!");
      }else{
-$sender->sendmessage("Heres Your Wand");
+$sender->sendMessage("Heres Your Wand");
 $sender->getInventory()->addItem(Item::get(280,0,1);
-}
-}
+				 }				 
 return true;
 				 }
 				 }
