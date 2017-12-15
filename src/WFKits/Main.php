@@ -1,5 +1,7 @@
 <?php
+
 namespace WFKits:
+
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\event\player\PlayerQuitEvent;
@@ -9,6 +11,7 @@ use pocketmine\event\Listener;
 use pocketmine\utils\TextFormat as C;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
+
 class Main extends PluginBase implements Listener{
 public function onLoad(){
                     $this->getLogger()->info("Plugin Loading");
